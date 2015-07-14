@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/gender">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:checked="true"
+            android:id="@+id/male"></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:id="@+id/female"></RadioButton>
+
+    </RadioGroup>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/basketball"
+            android:text="篮球"
+            android:textSize="30dp"></CheckBox>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/football"
+            android:text="足球"
+            android:textSize="30dp"></CheckBox>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/music"
+            android:text="音乐"
+            android:textSize="30dp"></CheckBox>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开关按钮"
+            android:textOff="关"
+            android:textOn="开"
+            android:id="@+id/s1"
+            android:thumb="@drawable/abc_ic_menu_selectall_mtrl_alpha">
+
+        </Switch>
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="排列方式"
+        android:textOff="垂直"
+        android:textOn="水平"
+        android:id="@+id/s2">
+
+    </ToggleButton>
+</LinearLayout>
