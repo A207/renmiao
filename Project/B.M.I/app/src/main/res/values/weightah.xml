@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">B.M.I</string>
 <string name="weight">体重</string>
     <string name="height">身高</string>
       <string name="bmi_btn">计算BMI</string>
