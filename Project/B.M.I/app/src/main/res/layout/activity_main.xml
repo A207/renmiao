@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffebcd"
+    android:background="@drawable/screen1"
 
    >
     <TextView
@@ -113,7 +113,7 @@
     <TextView
         android:id="@+id/suggest"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:text=""
         android:textColor="#deb887"
         android:textSize="30dp"
@@ -125,8 +125,10 @@
         android:layout_height="wrap_content"
         android:text="关于"
         android:textSize="20dp"
+
         android:layout_below="@id/suggest"
-        android:background="#deb887"
+
+
         ></Button>
 
 
